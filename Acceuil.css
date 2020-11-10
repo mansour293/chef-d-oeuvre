@@ -1,14 +1,15 @@
 body {
   background-color: rgb(220, 220, 220, 0.7);
 }
+/*..................carousel...................*/
 .carousel-item {
   height: 100vh;
   min-height: 300px;
   background: no-repeat center center scroll;
-  -webkit-background-size: cover;
+  -webkit-background-size: cover;   
 }
 .carousel-caption {
-  -moz-background-size: cover;
+  -moz-background-size: cover;                    /*carousel ..image cover et text center*/
   -o-background-size: cover;
   background-size: cover;
   bottom: 270px;
@@ -31,6 +32,7 @@ body {
   color: white;
   font-family: cursive;
 }
+/*.................navbar..............................*/
 
 .navbar-light .navbar-brand {
   color: green;
@@ -42,9 +44,9 @@ body {
 }
 
 .navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.active,                 /*navbar fixed et background noir transparent*/
 .navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
+.navbar-light .navbar-nav .show > .nav-link {                 
   color: white;
   font-size: 22px;
   font-family: cursive;
@@ -76,8 +78,8 @@ body {
 
 .navbar-toggler {
   padding: 1px 5px;
-  font-size: 13px;
-  line-height: 0.3;
+  font-size: 30px;
+  line-height: 0.7;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -86,17 +88,16 @@ body {
   color: crimson;
 }
 .drop {
-  background-color: rgb(0, 0, 0, 0.7);
+  background-color: rgb(0, 0, 0, 0.7);           /*nav dop dawn background color*/
 }
 
 .drop a {
   color: white;
 }
-.ca {
-  font-size: 90%;
-}
+/*.................navbar..............................*/
+
 .bloc {
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0, 0.5);   /* background color de bloc sur carrosel*/
 }
 .cart {
   background-image: url("image/bg1.jpg");
@@ -105,6 +106,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+
   
 }
 
@@ -112,7 +115,7 @@ body {
   background-image: url("image/nav.jpg");
   height: 300px;
 
-  background-size: cover;
+  background-size: cover;                    /* background fixe  sous carousel*/
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -128,20 +131,23 @@ body {
 }
 .myrow {
   height: 100%;
-  box-shadow: 5px 10px gainsboro;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);   /* a propos de nous*/
+
 
   background-color: rgb(193, 223, 132);
 }
 .prix {
   text-align: center;
 
-  font-size: 45px;
+  font-size: 45px;               /*les prix des produit*/
   line-height: 1.9;
   color: red;
   font-family: cursive;
 }
 .card1 {
   height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);   /*les card des produit*/
+
 }
 .title h4 {
   text-align: center;
@@ -163,7 +169,7 @@ body {
   padding: 6px 0 6px 0;
   border-radius: 8px;
   background-image: url(image/nav.jpg);
-  font: bold 13px Arial;
+  font: bold 13px Arial;                     /*les boutun acheter*/
   color: black;
   width: 70%;
   height: 35px;
@@ -174,6 +180,7 @@ body {
 .bt:hover {
   color:white;
 }
+/*.................footer...............................*/
 
 .site-footer {
   background-color: #26272b;
@@ -234,6 +241,23 @@ body {
 .blocb {
   background-color: rgb(0, 0, 0, 0.7);
 }
+
+
+.fb :hover{
+  background-color: blue;
+}
+.yo:hover{
+  background-color: red;                /*..........................les icones ................*/
+}
+.tw:hover{
+  background-color: skyblue;
+}
+.in:hover{
+  background-color: palevioletred;
+}
+
+/*..............modal...................*/
+
 .modal-0{
   background: url(image/bgmodale.gif) 
 
@@ -241,17 +265,4 @@ body {
 }
 .modal-0 .th {
   background-color: #737373;
-}
-
-.fb :hover{
-  background-color: blue;
-}
-.yo:hover{
-  background-color: red;
-}
-.tw:hover{
-  background-color: skyblue;
-}
-.in:hover{
-  background-color: palevioletred;
 }
